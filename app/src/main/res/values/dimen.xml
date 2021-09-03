@@ -5,6 +5,9 @@
     <dimen name="home_title_margin">20dp</dimen>
     <dimen name="home_more_padding">15dp</dimen>
 
+    <dimen name="profile_image_size">70dp</dimen>
+    <dimen name="profile_margin">10dp</dimen>
+
     <dimen name="item_deal_padding">15dp</dimen>
     <dimen name="item_deal_margin">5dp</dimen>
 
@@ -13,5 +16,9 @@
 
     <dimen name="item_chat_padding">15dp</dimen>
     <dimen name="item_chat_image_size">50dp</dimen>
+
+    <dimen name="bg_btn_width">1dp</dimen>
+    <dimen name="bg_btn_radius">5dp</dimen>
+
     <dimen name="bg_rectangle_radius">10dp</dimen>
 </resources>

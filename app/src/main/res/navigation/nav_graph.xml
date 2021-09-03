@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.jelldaeri.jellieve.ui.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/navigation_deal"
+        android:name="com.jelldaeri.jellieve.ui.DealFragment"
+        android:label="@string/title_deal"
+        tools:layout="@layout/fragment_deal"/>
+
+    <fragment
+        android:id="@+id/navigation_share"
+        android:name="com.jelldaeri.jellieve.ui.ShareFragment"
+        android:label="@string/title_share"
+        tools:layout="@layout/fragment_share"/>
+
+    <fragment
+        android:id="@+id/navigation_chat_list"
+        android:name="com.jelldaeri.jellieve.ui.ChatListFragment"
+        android:label="@string/title_chat_list"
+        tools:layout="@layout/fragment_chat_list"/>
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.jelldaeri.jellieve.ui.SettingFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_setting">
+
+        <!-- 임시로 넣어놓음! -->
+        <action android:id="@+id/action_Setting_to_Profile"
+            app:destination="@id/navigation_profile"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.jelldaeri.jellieve.ui.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile"/>
+
+</navigation>

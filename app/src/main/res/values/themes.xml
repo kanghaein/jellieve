@@ -18,6 +18,11 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bg_btn_ripple</item>  <!-- 클릭 효과가 적용된 버튼 배경 -->
+        <item name="android:stateListAnimator">@null</item>             <!-- 그림자 없앰 -->
+    </style>
+
     <style name="Home"/>
 
     <style name="Home.TextViewStyle" parent="Widget.AppCompat.TextView">

@@ -7,4 +7,16 @@
     <string name="home_title_deal">거래 게시판</string>
     <string name="home_title_share">정보 공유 게시판</string>
     <string name="home_more">더보기</string>
+
+    <string name="profile_btn">채팅 걸기</string>
+
+    <string name="profile_tab_deal">소통 내역</string>
+    <string name="profile_tab_share">정보 공유 내역</string>
+
+    <string name="title_home">홈</string>
+    <string name="title_deal">소통 게시판</string>
+    <string name="title_share">정보 공유 게시판</string>
+    <string name="title_chat_list">채팅</string>
+    <string name="title_setting">설정</string>
+    <string name="title_profile">회원 정보</string>
 </resources>
