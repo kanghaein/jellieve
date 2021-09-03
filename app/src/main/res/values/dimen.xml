@@ -14,4 +14,9 @@
     <dimen name="item_chat_padding">15dp</dimen>
     <dimen name="item_chat_image_size">50dp</dimen>
     <dimen name="bg_rectangle_radius">10dp</dimen>
+
+
+
+
+    <dimen name="login_padding">25dp</dimen>
 </resources>

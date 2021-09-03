@@ -5,6 +5,26 @@
       <map>
         <entry key="..\:/AndroidStudioProjects/Jellieve/app/src/main/res/layout/fragment_chat_list.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/Jellieve/app/src/main/res/layout/fragment_deal.xml" value="0.15364583333333334" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/drawable/bg_rectangle.xml" value="0.37222222222222223" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/drawable/ic_arrow_right_24.xml" value="0.37222222222222223" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37222222222222223" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/drawable/ic_trophy_24.xml" value="0.37222222222222223" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/layout/activity_login.xml" value="0.43020833333333336" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/layout/activity_main.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/layout/activity_signup.xml" value="0.43020833333333336" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/layout/fragment_chat_list.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/layout/fragment_deal.xml" value="0.43020833333333336" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/layout/fragment_home.xml" value="0.43020833333333336" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/layout/fragment_score.xml" value="0.43020833333333336" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/layout/fragment_setting.xml" value="0.43020833333333336" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/layout/fragment_share.xml" value="0.43020833333333336" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/layout/item_chat_list.xml" value="0.43020833333333336" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/layout/item_deal.xml" value="0.43020833333333336" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/layout/item_share.xml" value="0.43020833333333336" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/layout/item_trust.xml" value="0.43020833333333336" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/layout/score_alert.xml" value="0.5" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.44635416666666666" />
+        <entry key="..\:/Users/CSOS/Desktop/jellieve/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.44635416666666666" />
       </map>
     </option>
   </component>
