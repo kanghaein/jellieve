@@ -4,10 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:fillViewport="true">
+    android:fillViewport="true"
+    android:padding="@dimen/app_margin">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -55,6 +55,7 @@
             android:id="@+id/share_read_time"
             android:text="2021.09.03"
             android:drawableLeft="@drawable/ic_baseline_access_time_24"
+            android:drawablePadding="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="@id/share_read_title"
@@ -106,7 +107,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="send"/>
+                android:text="등록"/>
 
         </LinearLayout>
 
