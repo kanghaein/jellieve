@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/app_margin"
+    tools:context=".ui.HomeFragment">
+
+    <TextView
+        android:id="@+id/home_text_trust"
+        style="@style/Home.TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/home_title_margin"
+        android:gravity="center"
+        android:text="회원 가입" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="@dimen/home_title_margin"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/home_title_margin"
+            android:text="아이디*" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_id"
+                style="@style/Login.TextViewStyle"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:background="@drawable/bg_rectangle"
+                android:textSize="15dp"
+                android:text="예 : pinkjellyhyejung"/>
+
+            <Button
+                android:id="@+id/btn_dup_id"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:text="중복 확인"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/home_title_margin"
+            android:text="비밀번호*" />
+
+        <EditText
+            android:id="@+id/et_pw"
+            style="@style/Login.TextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_rectangle"
+            android:textSize="15sp"
+            android:text="비밀번호를 입력해주세요"/>
+
+        <TextView
+            android:id="@+id/tv_pw_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/home_title_margin"
+            android:text="비밀번호 확인*" />
+
+        <EditText
+            android:id="@+id/et_pw_check"
+            style="@style/Login.TextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_rectangle"
+            android:textSize="15sp"
+            android:text="비밀번호를 한번 더 입력해주세요"/>
+
+        <TextView
+            android:id="@+id/tv_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/home_title_margin"
+            android:text="닉네임*" />
+
+        <EditText
+            android:id="@+id/et_nickname"
+            style="@style/Login.TextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_rectangle"
+            android:textSize="15sp"
+            android:text="닉네임을 입력해주세요"/>
+
+        <TextView
+            android:id="@+id/tv_region"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/home_title_margin"
+            android:text="거주지 입력*" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/sp_sido"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:spinnerMode="dropdown"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/sp_si_gungu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:spinnerMode="dropdown"
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -21,4 +21,9 @@
     <dimen name="bg_btn_radius">5dp</dimen>
 
     <dimen name="bg_rectangle_radius">10dp</dimen>
+
+
+
+
+    <dimen name="login_padding">25dp</dimen>
 </resources>
